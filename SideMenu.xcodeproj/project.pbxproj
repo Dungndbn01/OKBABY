@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C3DFE3F1F85BDD400DA8DDF /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3DFE3E1F85BDD300DA8DDF /* myCell.swift */; };
+		7C3DFE411F85C90400DA8DDF /* myCollCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3DFE401F85C90400DA8DDF /* myCollCellCollectionViewCell.swift */; };
 		7C7B38741F85222800B57FE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B38731F85222800B57FE6 /* AppDelegate.swift */; };
 		7C7B38761F85222800B57FE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B38751F85222800B57FE6 /* ViewController.swift */; };
 		7C7B38791F85222800B57FE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C7B38771F85222800B57FE6 /* Main.storyboard */; };
@@ -14,6 +16,9 @@
 		7C7B387E1F85222900B57FE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C7B387C1F85222900B57FE6 /* LaunchScreen.storyboard */; };
 		7C7B38891F85222900B57FE6 /* SideMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B38881F85222900B57FE6 /* SideMenuTests.swift */; };
 		7C7B38941F85222900B57FE6 /* SideMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B38931F85222900B57FE6 /* SideMenuUITests.swift */; };
+		7C7B38A61F85256000B57FE6 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B38A51F85256000B57FE6 /* mainViewController.swift */; };
+		7C7B38A81F85258700B57FE6 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B38A71F85258700B57FE6 /* menuViewController.swift */; };
+		7C7B38AA1F8527E700B57FE6 /* rightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B38A91F8527E700B57FE6 /* rightViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C3DFE3E1F85BDD300DA8DDF /* myCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
+		7C3DFE401F85C90400DA8DDF /* myCollCellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCollCellCollectionViewCell.swift; sourceTree = "<group>"; };
 		7C7B38701F85222800B57FE6 /* SideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C7B38731F85222800B57FE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C7B38751F85222800B57FE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,9 @@
 		7C7B388F1F85222900B57FE6 /* SideMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C7B38931F85222900B57FE6 /* SideMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuUITests.swift; sourceTree = "<group>"; };
 		7C7B38951F85222900B57FE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C7B38A51F85256000B57FE6 /* mainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		7C7B38A71F85258700B57FE6 /* menuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		7C7B38A91F8527E700B57FE6 /* rightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rightViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				7C7B387A1F85222900B57FE6 /* Assets.xcassets */,
 				7C7B387C1F85222900B57FE6 /* LaunchScreen.storyboard */,
 				7C7B387F1F85222900B57FE6 /* Info.plist */,
+				7C7B38A51F85256000B57FE6 /* mainViewController.swift */,
+				7C7B38A71F85258700B57FE6 /* menuViewController.swift */,
+				7C7B38A91F8527E700B57FE6 /* rightViewController.swift */,
+				7C3DFE3E1F85BDD300DA8DDF /* myCell.swift */,
+				7C3DFE401F85C90400DA8DDF /* myCollCellCollectionViewCell.swift */,
 			);
 			path = SideMenu;
 			sourceTree = "<group>";
@@ -194,17 +209,20 @@
 					7C7B386F1F85222800B57FE6 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = T8UZ5C7N29;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					7C7B38831F85222900B57FE6 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = T8UZ5C7N29;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 7C7B386F1F85222800B57FE6;
 					};
 					7C7B388E1F85222900B57FE6 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = T8UZ5C7N29;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 7C7B386F1F85222800B57FE6;
 					};
@@ -263,7 +281,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C7B38761F85222800B57FE6 /* ViewController.swift in Sources */,
+				7C7B38AA1F8527E700B57FE6 /* rightViewController.swift in Sources */,
 				7C7B38741F85222800B57FE6 /* AppDelegate.swift in Sources */,
+				7C3DFE411F85C90400DA8DDF /* myCollCellCollectionViewCell.swift in Sources */,
+				7C7B38A61F85256000B57FE6 /* mainViewController.swift in Sources */,
+				7C3DFE3F1F85BDD400DA8DDF /* myCell.swift in Sources */,
+				7C7B38A81F85258700B57FE6 /* menuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,11 +438,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = T8UZ5C7N29;
 				INFOPLIST_FILE = SideMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ominext.SideMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SideMenu/SideMenu-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -428,11 +454,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = T8UZ5C7N29;
 				INFOPLIST_FILE = SideMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ominext.SideMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SideMenu/SideMenu-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -442,11 +470,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = T8UZ5C7N29;
 				INFOPLIST_FILE = SideMenuTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ominext.SideMenuTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SideMenu/SideMenuTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SideMenu.app/SideMenu";
 			};
@@ -457,11 +488,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = T8UZ5C7N29;
 				INFOPLIST_FILE = SideMenuTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ominext.SideMenuTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SideMenu/SideMenuTests-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SideMenu.app/SideMenu";
 			};
@@ -471,11 +504,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = T8UZ5C7N29;
 				INFOPLIST_FILE = SideMenuUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ominext.SideMenuUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SideMenu/SideMenuUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = SideMenu;
 			};
@@ -485,11 +521,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = T8UZ5C7N29;
 				INFOPLIST_FILE = SideMenuUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ominext.SideMenuUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SideMenu/SideMenuUITests-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = SideMenu;
 			};
@@ -514,6 +552,7 @@
 				7C7B389A1F85222900B57FE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C7B389B1F85222900B57FE6 /* Build configuration list for PBXNativeTarget "SideMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +561,7 @@
 				7C7B389D1F85222900B57FE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C7B389E1F85222900B57FE6 /* Build configuration list for PBXNativeTarget "SideMenuUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +570,7 @@
 				7C7B38A01F85222900B57FE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
